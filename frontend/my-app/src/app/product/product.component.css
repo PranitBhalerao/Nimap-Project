@@ -1,0 +1,60 @@
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .category-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Define different background colors for the category cards */
+  .category-card:nth-child(1) {
+    background-color: #FFCDD2;
+  }
+  
+  .category-card:nth-child(2) {
+    background-color: #C8E6C9;
+  }
+  
+  .category-card:nth-child(3) {
+    background-color: #BBDEFB;
+  }
+  
+  .category-card:nth-child(4) {
+    background-color: #FFF9C4;
+  }
+  .category-card:nth-child(7) {
+    background-color: #FFF9C4;
+  }
+
+  .category-card:nth-child(6) {
+    background-color: #BBDEFB;
+  }
+
+  .category-card:nth-child(5) {
+    background-color: #FFCDD2;
+  }
+
+  .category-card:nth-child(8) {
+    background-color: #C8E6C9;
+  }
+  
